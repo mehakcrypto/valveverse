@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ANAND ENGINEERS</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="css/font-awesome.css" rel="stylesheet">
+
+
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css">
+
+ <!-- ADD THESE SLICK CSS FILES BELOW Owl Carousel -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- //custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/JiSlider.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- Owl-carousel-CSS --><link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/infinite-slider.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,900" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .top-bar {
+      background-color: rgb(117, 112, 112);
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+      margin: 5px 15px;
+      font-size: 14px;
+    }
+
+    .top-bar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar {
+      min-height: 80px;
+    }
+
+    .navbar-brand img {
+      height: 100px;
+      margin-top: -10px;
+    }
+
+    .navbar-nav > li > a {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    .topbarslider img {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption h4 {
+      font-size: 12px;
+      text-align: center;
+      padding: 5px;
+    }
+
+    /* Customer Logo Slider */
+    .customer-slider-section {
+      background-color: rgb(164, 27, 27);
+	   padding: 40px 50px;
+    }
+
+    .customer-slider-section h2 {
+      color: white;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .customer-logos {
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .customer-logos .slide {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .customer-logos img {
+      height: auto;
+      max-height: 200px;
+      max-width: 200%;
+      margin: 0 auto;
+    }
+	
+    /* Spacing cleanup */
+    .paragraphs p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+	.footer-black {
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-black a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.footer-black a:hover {
+  color: orange;
+}
+
+.footer-black h3 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-black ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-black ul li {
+  margin-bottom: 10px;
+}
+
+.w3_agile_footer_grid {
+  float: left;
+  width: 33.3333%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.w3ls_footer_grid_left {
+  float: left;
+  width: 33.3333%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.wthree_footer_grid_left i {
+  color: orange;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #444;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div>
+    <i class="fa fa-phone"><a href="tel:991510086">+(91) 991510086</a></i>
+    <i class="fa fa-phone"></i><a href="tel:9834928483">+(91) 9834928483</a>
+    <i class="fa fa-phone"></i><a href="tel:9756347838">+(91) 9756347838</a>
+  </div>
+  <div>
+    <i class="fa fa-envelope"></i><a href="mailto:anandengineer26@gmail.com">Anandengineer@gmail.com</a>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php"><img src="images/7.png" alt="Logo"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="aboutus.php">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Pump 1</a></li>
+            <li><a href="#">Pump 2</a></li>
+          </ul>
+        </li>
+        <li><a href="contactus.php">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1><b>25 years experience in providing solutions in pumps, valves & mechanical seals</h1></b>
+
+<!-- PRODUCT SLIDER -->
+<div class="topbarslider latest-blog-posts bg-white pt60 pb60">
+  <div class="container-fluid">
+    <div id="owl-demo-2" class="owl-carousel owl-theme">
+      <article class="thumbnail item">
+        <a href="#"><img src="images/1.png" alt="Product 1"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/3.png" alt="Product 2"></a>
+        <div class="caption"><h4><a href="#">Vertical Turbine</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/4.png" alt="Product 3"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/one.png" alt="Product 4"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/two.png" alt="Product 5"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/three.png" alt="Product 6"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/four.png" alt="Product 7"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+      <article class="thumbnail item">
+        <a href="#"><img src="images/five.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+	  <article class="thumbnail item">
+        <a href="#"><img src="images/six.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+	  <article class="thumbnail item">
+        <a href="#"><img src="images/seven.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+	  <article class="thumbnail item">
+        <a href="#"><img src="images/eight.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+	  <article class="thumbnail item">
+        <a href="#"><img src="images/nine.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+	  <article class="thumbnail item">
+        <a href="#"><img src="images/three.png" alt="Product 8"></a>
+        <div class="caption"><h4><a href="#">Standard Horizontal Split Case Pump</a></h4></div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<!-- AUTHORIZED DEALER -->
+<h2 style="color:red;">AUTHORIZED DEALER / STOCKIST :</h2>
+<img src="images/wiloprovide.jpg" width="100%">
+<img src="images/brayprovide.jpg" width="100%">
+
+<!-- COMPANY INFO -->
+<div class="container paragraphs">
+  <p>Anand Engineers is a Technical House of Engineering Products & Services providing Innovative Solution in Fluid Handling for various Industrial Applications.</p>
+  <p>Based in Ludhiana, with a sales office in Chandigarh, we operate in Punjab, Himachal, Haryana & Jammu. Serving clients in Paper, Power, Textile, Steel, Mining, Distilleries, Sugar, Food, Oils, Refineries, Chemicals, Cement & Pharma Industries.</p>
+
+  <p><strong>PUMPS:</strong> Centrifugal, Split Casing, Vertical Turbine, Multistage, Chemical, AODD, Gear, Vacuum, Submersible, Dosing Pumps, etc. Materials: CI, SS, Alloy, PVDF, WCB</p>
+  <p><strong>VALVES:</strong> Knife Gate, Butterfly, Ball, Gate, Globe, Check, Strainer, Diaphragm</p>
+  <p><strong>MECHANICAL SEALS:</strong> For Pumps, Reactors, Agitators. Designs include Cartridge Type, Metal Bellow, Teflon Bellow, etc.</p>
+  <p><strong>COUPLINGS:</strong> For various industrial applications.</p>
+
+  <p><strong>AUTHORIZED DEALERS:</strong><br>
+    - WILO Mather and Platt Pumps Pvt. Ltd.<br>
+    - BRAY Controls India Pvt. Ltd.<br>
+    - FluidTech Systems<br>
+    - JEE Pumps Pvt. Ltd.<br>
+    - Controtek Global<br>
+    - Toshio Technology Pvt. Ltd.
+  </p>
+</div>
+
+<!-- CUSTOMER LOGO SLIDER SECTION -->
+<div class="customer-slider-section">
+  <section class="customer-logos slider">
+    <div class="slide"><img src="images/wilo.jpg"></div>
+    <div class="slide"><img src="images/jeepumps.jpg"></div>
+    <div class="slide"><img src="images/roto.png"></div>
+    <div class="slide"><img src="images/cnp.png"></div>
+    <div class="slide"><img src="images/bray.jpg"></div>
+    <div class="slide"><img src="images/controtek.jpg"></div>
+    <div class="slide"><img src="images/toshio.jpg"></div>
+  </section>
+</div>
+<div class="footer-black">
+  <div class="container footer-content">
+
+    <!-- About, Navigation, Email Section -->
+    <div class="w3_agile_footer_grids">
+      <div class="col-md-4 w3_agile_footer_grid">
+        <u><h3><strong>About us</strong></h3></u>
+        <ul class="w3_agile_footer_grid_list">
+          <li>Anand Engineers is a quality driven organization offering a wide range of Pumps, Mechanical Seals, 
+            Valve, Couplings. We Provide Solutions in Transferring / Handling various types of Fluid in the Industrial Application.
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 w3_agile_footer_grid">
+        <h3><u><strong>Navigation</strong></h3></u>
+        <ul class="agileits_w3layouts_footer_grid_list">
+          <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><a href="index.html">Home</a></li>
+          <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><a href="portfolio.html">About Us</a></li>
+          <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><a href="services.html">Services</a></li>
+          <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><a href="mail.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 w3_agile_footer_grid">
+       <u><h3><strong>Email us:</strong></h3></u>
+        <a href="mailto:anandengineers26@gmail.com">anandengineers26@gmail.com</a><br>
+        <a href="mailto:support@anandengineers.in">support@anandengineers.in</a><br>
+        <a href="mailto:bharatmiddha@anandengineers.in">bharatmiddha@anandengineers.in</a>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- Address Section -->
+	  <hr style="border-color: #444;">
+    <div class="w3ls_address_mail_footer_grids row">
+      <div class="col-md-4 w3ls_footer_grid_left">
+        <div class="wthree_footer_grid_left">
+          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        </div>
+        <h4>Registered Office</h4>
+        <p>
+          7466/2, 1st Floor, Gokul Vihar, <br>
+          Durga Puri, Near Dinesh Wood Work, <br>
+          Haibowal Kalan, Ludhiana - 141001
+        </p>
+      </div>
+
+      <div class="col-md-4 w3ls_footer_grid_left">
+        <div class="wthree_footer_grid_left">
+          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        </div>
+        <h4>Sales / Workshop</h4>
+        <p>
+          #3245/16, Super Cycle Market, <br>
+          Nr. Neeta Jewellers, Chet Singh Nagar, <br>
+          Gill Road, Ludhiana-141003 <br>
+          Landline: 0161-2490860
+        </p>
+      </div>
+
+      <div class="col-md-4 w3ls_footer_grid_left">
+        <div class="wthree_footer_grid_left">
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+        </div>
+        <h4>Contact Numbers</h4>
+        <p>
+          (+91) 9915100860 <br>
+          (+91) 8427668860 <br>
+          (+91) 9815933860 <br>
+          (+91) 7087544860 <br>
+          (+91) 7087564860
+        </p>
+      </div>
+    </div>
+
+    <hr style="border-color: #444;">
+    <h3 style="text-align:center; font-size: 16px; color: #ccc; margin-top: 20px;">
+      © 2019 Consultancy. All Rights Reserved | Design by <span style="color: orange;">Braintrain Info Solutions</span>
+    </h3>
+
+  </div>
+</div>
+<!-- Footer Section End -->
+
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#owl-demo-2").owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true
+    });
+
+    $('.customer-logos').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+        { breakpoint: 768, settings: { slidesToShow: 4 }},
+        { breakpoint: 520, settings: { slidesToShow: 2 }}
+      ]
+    });
+  });
+</script>
+
+</body>
+</html>
